@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+    "allowJs": true, // ts 파일말고 js 파일도 허용해라
+    // "noImplicitAny": true
+    "skipLibCheck": true // undici-types 관련 오류때문에 임시 설정
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}

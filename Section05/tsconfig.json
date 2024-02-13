@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true //undici-types 관련 오류때문에 추가
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"]
+}
